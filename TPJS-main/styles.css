@@ -1,0 +1,236 @@
+#body {
+max-width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+background-color: rgba(0, 153, 255, 0.363);
+}
+
+#menubouton {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(7, 219, 0, 0.363);
+    }
+
+
+
+#chantier {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#chantier2 {
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#chantier3 {
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    contain: content;
+}
+
+
+#chantier4 {
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    contain: content;
+}
+
+
+
+
+#bouton_attaque {
+    width: 300px;
+    height: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(255, 31, 31);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#bouton_attaque:hover{
+    background-image: url(simple-excavator-png-transparent.GIF);
+    background-size: contain;
+}
+
+#bouton_special {
+    width: 300px;
+    height: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 59, 252);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#bouton_special:hover{
+    background-image: url(bus.gif);
+    background-size: contain;
+}
+
+
+#bouton_garde {
+    width: 300px;
+    height: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(255, 113, 31);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#bouton_garde:hover{
+    background-image: url(PIMPON.gif);
+    background-size: contain;
+}
+
+#ennemieun{
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#ennemideux{
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#ennemitrois{
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+#PIMPON{
+    font-size: large;
+}
+
+#PIMPON:hover{
+    background-color: crimson;
+    background-size: contain;
+}
+
+#Bonnepelle{
+    font-size: large;
+}
+
+#Bonnepelle:hover{
+    background-color: crimson;
+    background-size: contain;
+}
+
+#Jouettrain{
+    font-size: large;
+}
+
+#Jouettrain:hover{
+    background-color: crimson;
+    background-size: contain;
+}
+
+#Bus{
+    font-size: large;
+}
+
+#Bus:hover{
+    background-color: crimson;
+    background-size: contain;
+}
+
+
+
+#affichage {
+    display: flex;
+    border-style: groove;
+    border-width: 2px;
+    width: 100%;
+    height: 300px;
+}
+
+#vie_chantier{
+    display: none;
+}
+
+#hpbaptiste{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hpbaptistedeux{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hpbaptistetrois{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hppelleteuse{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hpbus{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hppimpon{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hptrain{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#textbox{
+    font-size: 40px;
+}
